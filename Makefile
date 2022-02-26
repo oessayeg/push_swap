@@ -4,12 +4,12 @@ CHECKER = checker
 
 FLAGS = -Wall -Wextra -Werror
 
-SRCS = $(addsuffix .o, error_functions1 error_functions2 medium_stack2 push_swap \
-small_stack2 stack_functions1 stack_functions2 stack_functions3 medium_stack3 \
-small_stack1 calc_functions putfunctions some_functions medium_stack1)
+SRCS = $(addprefix srcs/, error_functions1.c error_functions2.c medium_stack2.c push_swap.c \
+small_stack2.c stack_functions1.c stack_functions2.c stack_functions3.c medium_stack3.c \
+small_stack1.c calc_functions.c putfunctions.c some_functions.c medium_stack1.c)
 
-C_SRCS = $(addsuffix .o, checker error_functions1 error_functions2 stack_functions3 \
-		 stack_functions2 stack_functions1 medium_stack2 checker_utils)
+C_SRCS = bonus_srcs/checker.c bonus_srcs/checker_utils.c srcs/error_functions1.c srcs/error_functions2.c srcs/stack_functions3.c \
+		 srcs/stack_functions2.c srcs/stack_functions1.c srcs/medium_stack2.c
 
 all : $(NAME) $(CHECKER)
 
@@ -22,11 +22,7 @@ $(NAME) : $(SRCS)
 	@gcc $(FLAGS) $^ libft/libft.a -o $(NAME)
 	@printf "\033[35;5mPush_Swap Compiled Succesfully !\033[0m\n" 
 
-%.o : %.c
-	@gcc $(FLAGS) -c $^
-
 clean :
-	@rm -f $(SRCS) $(C_SRCS)
 	@make -C libft clean
 	@printf "\033[31;5mObject Files Deleted !\033[0m\n"
 

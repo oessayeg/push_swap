@@ -9,7 +9,7 @@
 /*   Updated: 2022/02/11 20:20:43 by oessayeg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "push_swap.h"
+#include "../srcs/push_swap.h"
 
 int	main(int argc, char **argv)
 {

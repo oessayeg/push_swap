@@ -14,8 +14,8 @@
 
 # include <stdlib.h>
 # include <unistd.h>
-# include "libft/libft.h"
-# include "libft/get_next_line.h"
+# include "../libft/libft.h"
+# include "../libft/get_next_line.h"
 
 typedef struct s_list
 {
