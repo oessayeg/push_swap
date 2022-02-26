@@ -22,5 +22,5 @@ This is a project from the second circle of the 42cursus. (The best one i've don
 
 ### How to use
   1. Clone and type make in the terminal, then type './push_swap ' with the numbers you want to sort, it will return the instructions to sort them in a stack.
-  2. If you want to check
-  3. For the checker, it must be ready after typing make. If executed alone it will wait for the instructions in the standard input, else, execute it with the arguments given in a stack using a pipe, it will return 'OK' if the stack is sorted and 'KO' if not. example './push_swap ARGS | ./checker ARGS'
+  2. If you want to check the number of instructions, use the command 'wc' with the option 'l'. Example (./push_swap 5 2 3 1 7 | wc -l).
+  3. For the checker, it must be ready after typing make. If executed alone it will wait for the instructions in the standard input, else, execute it with the arguments given in a stack using a pipe, it will return 'OK' if the stack is sorted and 'KO' if not. (example './push_swap ARGS | ./checker ARGS')
