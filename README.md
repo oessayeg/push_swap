@@ -7,6 +7,19 @@ This is a project from the second circle of the 42cursus. (The best one i've don
   * Put the numbers given as arguments in 'stack a' and then sort them using 'stack b' with the least amout of instructions possible.
   * Create a checker that checks if either your stack is sorted or not. (For the bonus part)
 
+### Instructions to use
+ * sa : swaps the first two elements of stack a
+ * sb : swaps the first two elements of stack b 
+ * ss : sa + sb
+ * ra : shift all elements of stack a by one (the first element becomes the last)
+ * rb : shift all elements of stack b by one (the first element becomes the last)
+ * rr : ra + rb
+ * rra : shift down all elements of stack a by one (the last element becomes the first)
+ * rrb : shift down all elements of stack b by one (the last element becomes the first)
+ * rrr : rra + rrb
+ * pa : push the first element in stack b to stack a
+ * pb : push the first element in stack a to stack b
+
 ### Skills I learnt from it :
   * Some sorting algorithms
   * Problem solving, AI
