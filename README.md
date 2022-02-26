@@ -1,4 +1,4 @@
-# push_swap       :signal_strength:	
+# push_swap
 
 This is a project from the second circle of the 42cursus. (The best one i've done at the moment)
 
