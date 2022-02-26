@@ -11,8 +11,8 @@ This is a project from the second circle of the 42cursus. (The best one i've don
  * sa : swaps the first two elements of stack a
  * sb : swaps the first two elements of stack b 
  * ss : sa + sb
- * ra : shift all elements of stack a by one (the first element becomes the last)
- * rb : shift all elements of stack b by one (the first element becomes the last)
+ * ra : shift up all elements of stack a by one (the first element becomes the last)
+ * rb : shift up all elements of stack b by one (the first element becomes the last)
  * rr : ra + rb
  * rra : shift down all elements of stack a by one (the last element becomes the first)
  * rrb : shift down all elements of stack b by one (the last element becomes the first)
@@ -28,7 +28,7 @@ This is a project from the second circle of the 42cursus. (The best one i've don
 ### Final grade :
   125/100.
 
-### Number of instructions to sort a stack :
+### Number of instructions used to sort a stack (my algorithm):
  * For 100 numbers : instructions < 700.
  * For 500 numbers : instructions < 5500.
 
