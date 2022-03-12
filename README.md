@@ -9,7 +9,7 @@ This is a project from the second circle of the 42cursus. (The best one i've don
 
 ### Instructions to use
  * sa : swaps the first two elements of stack a
- * sb : swaps the first two elements of stack b 
+ * sb : swaps the first two elements of stack b
  * ss : sa + sb
  * ra : shift up all elements of stack a by one (the first element becomes the last)
  * rb : shift up all elements of stack b by one (the first element becomes the last)
@@ -25,14 +25,21 @@ This is a project from the second circle of the 42cursus. (The best one i've don
   * Problem solving, AI
   * Unix
     
-### Final grade :
-  125/100.
+### Explanation of the algorithm I used
+ 1. After pushing the numbers given in the arguments to stack A, I find the longest increasing subsequence.
+ 2. I push everything to stack B apart from the LIS (longest increasing subsequence) I found earlier.
+ 3. Now stack A is sorted. Here's an example of how it can look like : 150 100 3 10 16 20 50 (You can imagine it like a cirlce, it is still sorted).
+ 4. Bruteforce stack B and push the number with least amount of instructions to use and that is going to be in the perfect spot in stack A.
+ 5. Repeat '4' until stack B is emty.
+ 6. Get the smallest number in stack A to the top.
 
 ### Number of instructions used to sort a stack (my algorithm):
  * For 100 numbers : instructions < 700.
  * For 500 numbers : instructions < 5500.
 
-
+### Final grade :
+  125/100.
+  
 ### How to use
   1. Clone and type make in the terminal, then type './push_swap ' with the numbers you want to sort, it will return the instructions to sort them in a stack.
   2. If you want to check the number of instructions, use the command 'wc' with the option 'l'. Example (./push_swap 5 2 3 1 7 | wc -l).
