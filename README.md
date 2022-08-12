@@ -23,6 +23,7 @@ This is a project from the second circle of the 42cursus. (The best one i've don
 ### Skills I learnt from it :
   * Some sorting algorithms
   * Problem solving, AI
+  * Stack abstraction
   * Unix
     
 ### Explanation of the algorithm I used
