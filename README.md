@@ -24,7 +24,7 @@ This is a project from the second circle of the 42cursus. (The best one i've don
   * Some sorting algorithms
   * Problem solving, AI
   * Stack abstraction
-  * Unix
+  * Unix logic
     
 ### Explanation of the algorithm I used
  1. After pushing the numbers given in the arguments to stack A, I find the longest increasing subsequence. [LIS](https://en.wikipedia.org/wiki/Longest_increasing_subsequence#:~:text=In%20computer%20science%2C%20the%20longest,not%20necessarily%20contiguous%2C%20or%20unique.)
