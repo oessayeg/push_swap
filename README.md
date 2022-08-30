@@ -37,9 +37,6 @@ This is a project from the second circle of the 42cursus. (The best one i've don
 ### Number of instructions used to sort a stack (my algorithm):
  * For 100 numbers : instructions < 700.
  * For 500 numbers : instructions < 5500.
-
-### Final grade :
-  125/100.
   
 ### How to use
   1. Clone and type make in the terminal, then type './push_swap ' with the numbers you want to sort, it will return the instructions to sort them in a stack.
