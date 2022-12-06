@@ -1,6 +1,6 @@
 # Push_swap :signal_strength:
 
-This is a project from the second circle of the 42cursus. (The best one i've done at the moment)
+This is a project from the second circle of the 42cursus.
 
 ### Objectives :
   * Implement two stacks : 'stack a' and 'stack b'. (I used a linked list)
