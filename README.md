@@ -20,9 +20,9 @@ This is a project from the second circle of the 42cursus.
  * pa : push the first element in stack b to stack a
  * pb : push the first element in stack a to stack b
 
-### Skills I learnt from it :
+### Skills learnt from this project :
   * Some sorting algorithms
-  * Problem solving, AI
+  * Problem solving
   * Stack abstraction
   * Unix logic
     
