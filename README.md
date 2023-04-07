@@ -34,7 +34,7 @@ This is a project from the second circle of the 42cursus.
  5. Repeat '4' until stack B is emty.
  6. Get the smallest number in stack A to the top.
 
-### Number of instructions used to sort a stack (my algorithm):
+### Number of instructions used to sort a stack :
  * For 100 numbers : instructions < 700.
  * For 500 numbers : instructions < 5500.
   
